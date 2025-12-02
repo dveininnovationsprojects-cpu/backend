@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class HrmApplication {
     @GetMapping("/selvamani")
     public String showselvamani(){
-        return "hello chennai";
+        return "hello maduari ";
     }
     @GetMapping("/Navin")
         public String shownavin(){
-        return "Vanakam da mapla navin rmd";
+        return "Vanakam da mapla navin from rmd";
 
     }
 	@GetMapping("/kishore")
 	public String showKishore(){
-		return "hello team mates ";
+		return "hello team mates good morning ";
 	}
 
 	public static void main(String[] args) {
