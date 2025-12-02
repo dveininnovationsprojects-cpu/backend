@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @SpringBootApplication
 @RestController
 public class HrmApplication {
+    @GetMapping("/selvamani")
+    public String showselvamani(){
+        return "hello chennai";
+    }
     @GetMapping("/Navin")
         public String shownavin(){
         return "Vanakam da mapla navin rmd";
