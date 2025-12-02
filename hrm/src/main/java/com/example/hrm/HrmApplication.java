@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HrmApplication {
     @GetMapping("/Navin")
         public String shownavin(){
-        return "Vanakam da mapla navin";
+        return "Vanakam da mapla navin rmd";
 
     }
 	public static void main(String[] args) {
